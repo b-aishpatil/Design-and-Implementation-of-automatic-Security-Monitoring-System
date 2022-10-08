@@ -1,0 +1,72 @@
+* E:\Self\Hackathon\Mixed_Signal_SoC_Design_Marathon\circuit\Security_System\Security_System.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 10/08/22 20:05:25
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_SC1-Pad2_ Net-_X1-Pad2_ in1 sine first gnd avsd_opamp		
+X2  Net-_SC1-Pad2_ Net-_X1-Pad2_ sine in2 second gnd avsd_opamp		
+SC1  in1 Net-_SC1-Pad2_ gnd sky130_fd_pr__res_generic_nd		
+SC2  in2 in1 gnd sky130_fd_pr__res_generic_nd		
+SC3  gnd in2 gnd sky130_fd_pr__res_generic_nd		
+U1  first plot_v1		
+U2  second plot_v1		
+v1  Net-_SC1-Pad2_ gnd DC		
+v2  sine gnd sine		
+v3  gnd Net-_X1-Pad2_ DC		
+U8  sine plot_v1		
+U5  in1 plot_v1		
+U6  in2 plot_v1		
+U12  Net-_U11-Pad2_ Net-_U12-Pad2_ aish_inverter		
+U11  first Net-_U11-Pad2_ adc_bridge_1		
+U13  Net-_U12-Pad2_ Net-_U13-Pad2_ aish_inverter		
+U14  Net-_U13-Pad2_ ffirst dac_bridge_1		
+U15  ffirst plot_v1		
+U17  Net-_U16-Pad2_ Net-_U17-Pad2_ aish_inverter		
+U16  second Net-_U16-Pad2_ adc_bridge_1		
+U18  Net-_U17-Pad2_ Net-_U18-Pad2_ aish_inverter		
+U19  Net-_U18-Pad2_ ssecond dac_bridge_1		
+U20  ssecond plot_v1		
+U3  bxnor b1xnor Net-_U22-Pad1_ d_xnor		
+U21  ffirst second bxnor b1xnor adc_bridge_2		
+U23  xnor plot_v1		
+U22  Net-_U22-Pad1_ xnor dac_bridge_1		
+U24  bxnor plot_v1		
+U27  b1xnor plot_v1		
+U32  Net-_U31-Pad3_ Net-_U31-Pad4_ Net-_U32-Pad3_ Net-_U32-Pad4_ Net-_U32-Pad5_ Net-_U32-Pad6_ aish_mod16		
+U31  xnor gnd Net-_U31-Pad3_ Net-_U31-Pad4_ adc_bridge_2		
+U33  Net-_U32-Pad6_ Net-_U32-Pad5_ Net-_U32-Pad4_ Net-_U32-Pad3_ c1 c2 c3 c4 dac_bridge_4		
+U34  Net-_U34-Pad1_ Net-_U34-Pad2_ Net-_U34-Pad3_ Net-_U34-Pad4_ Net-_U34-Pad5_ Net-_U34-Pad6_ Net-_U34-Pad7_ Net-_U34-Pad8_ Net-_U34-Pad9_ Net-_U34-Pad10_ Net-_U34-Pad11_ Net-_U34-Pad12_ Net-_U34-Pad13_ Net-_U34-Pad14_ Net-_U34-Pad15_ Net-_U34-Pad16_ Net-_U32-Pad3_ Net-_U32-Pad4_ Net-_U32-Pad5_ Net-_U32-Pad6_ Net-_U26-Pad1_ aish_mux		
+v11  Net-_U4-Pad4_ gnd 12		
+U36  c1 plot_v1		
+U37  c2 plot_v1		
+U39  c4 plot_v1		
+U38  c3 plot_v1		
+U35  Net-_U26-Pad1_ Net-_U32-Pad3_ Net-_U32-Pad4_ Net-_U32-Pad5_ Net-_U32-Pad6_ Net-_U35-Pad6_ Net-_U35-Pad7_ Net-_U35-Pad8_ Net-_U35-Pad9_ Net-_U35-Pad10_ Net-_U35-Pad11_ Net-_U35-Pad12_ Net-_U35-Pad13_ Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ aish_demux		
+U40  door1 plot_v1		
+U41  door2 plot_v1		
+U42  door3 plot_v1		
+U43  door4 plot_v1		
+U44  door5 plot_v1		
+U45  door6 plot_v1		
+U48  door9 plot_v1		
+U47  door8 plot_v1		
+U49  door10 plot_v1		
+U46  door7 plot_v1		
+U50  door16 plot_v1		
+U51  door15 plot_v1		
+U52  door14 plot_v1		
+U53  door13 plot_v1		
+U54  door12 plot_v1		
+U57  door11 plot_v1		
+U9  Net-_U35-Pad6_ Net-_U35-Pad7_ Net-_U35-Pad8_ Net-_U35-Pad9_ Net-_U35-Pad10_ Net-_U35-Pad11_ Net-_U35-Pad12_ Net-_U35-Pad13_ door1 door2 door3 door4 door5 door6 door7 door8 dac_bridge_8		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ door9 door10 door11 door12 door13 door14 door15 door16 dac_bridge_8		
+U4  gnd gnd gnd Net-_U4-Pad4_ gnd gnd gnd Net-_U4-Pad4_ Net-_U34-Pad1_ Net-_U34-Pad2_ Net-_U34-Pad3_ Net-_U34-Pad4_ Net-_U34-Pad5_ Net-_U34-Pad6_ Net-_U34-Pad7_ Net-_U34-Pad8_ adc_bridge_8		
+U7  gnd gnd gnd Net-_U4-Pad4_ gnd gnd gnd Net-_U4-Pad4_ Net-_U34-Pad9_ Net-_U34-Pad10_ Net-_U34-Pad11_ Net-_U34-Pad12_ Net-_U34-Pad13_ Net-_U34-Pad14_ Net-_U34-Pad15_ Net-_U34-Pad16_ adc_bridge_8		
+U26  Net-_U26-Pad1_ doorIN dac_bridge_1		
+U25  doorIN plot_v1		
+U70  gnd plot_v1		
+
+.end
