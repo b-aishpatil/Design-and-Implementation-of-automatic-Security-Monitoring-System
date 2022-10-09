@@ -1,12 +1,13 @@
-# Design-and-Implementation-of-automatic-Security-Monitoring-System
+<h1 align="center"> Design and Implementation of automatic Security Monitoring System </h1>
 Design and Implementation of automatic Security Monitoring System
 
 # Index
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Abstract](#abstract)
-- [Acknowlegdements](#acknowlegdements)
+- [Index](#index)
+  - [Abstract](#abstract)
+  - [Acknowlegdements](#acknowlegdements)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
