@@ -5,11 +5,10 @@ Design and Implementation of automatic Security Monitoring System
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Index](#index)
-  - [Abstract](#abstract)
-  - [Software Tools Used](#software-tools-used)
-  - [Acknowlegdements](#acknowlegdements)
-    - [Social media IDs](#social-media-ids)
+- [Abstract](#abstract)
+- [Software Tools Used](#software-tools-used)
+- [Acknowlegdements](#acknowlegdements)
+  - [Social media IDs](#social-media-ids)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
