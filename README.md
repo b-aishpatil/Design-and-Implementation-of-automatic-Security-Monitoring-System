@@ -7,7 +7,9 @@ Design and Implementation of automatic Security Monitoring System
 
 - [Index](#index)
   - [Abstract](#abstract)
+  - [Software Tools Used](#software-tools-used)
   - [Acknowlegdements](#acknowlegdements)
+    - [Social media IDs](#social-media-ids)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -19,14 +21,46 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 
 
 
+## Software Tools Used
+
+<br>
+
+1. [eSim](https://esim.fossee.in/home) 
+
+> eSim is a free and open-sourced EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free/libre and open source software such as KiCad, Ngspice, Verilator, makerchip-app, sandpiper-saas and GHDL. eSim is released under GPL.
+
+2. [KiCad](https://www.kicad.org/)
+
+> KiCad's Schematic Editor supports everything from the most basic schematic to a complex hierarchical design with hundreds of sheets. It helps to create our own custom symbols or use some of the thousands found in the official KiCad library. We can verify our design with integrated SPICE simulator and electrical rules checker.
+
+3. [Ngspice](http://ngspice.sourceforge.net/)
+
+>  Ngspice is a mixed-level/mixed-signal electronic circuit simulator. Ngspice implements three classes of analysis: nonlinear DC analyses, Nonlinear transient analyses, linear AC analyses.
+   
+4. [Verilator](https://www.veripool.org/verilator/)
+
+>  Verilator is a free and open-source software tool which converts Verilog code to a cycle-accurate behavioral model in C++ or SystemC.
+   
+5. [Makerchip](https://www.makerchip.com/)
+>  A web-based IDE that is used to design and simulate digital circuits using Verilog, and the language extension of Verilog, TL-Verilog.  
+
+6. [SkyWater SKY130 PDK](https://skywater-pdk.rtfd.io/)
+
+> The SkyWater Open Source PDK is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which can be used to create manufacturable designs at SkyWater’s facility.
+
+
 ## Acknowlegdements
-1. FOSSEE, IIT Bombay
-2. Steve Hoover, Founder, Redwood EDA
-3. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
-4. Sumanto Kar, eSim Team, FOSSEE
-5.  http://iitb.ac.in/
-6.  https://www.google.co.in/
-7.  https://fossee.in/
-8.  https://spoken-tutorial.org/
-9.  https://www.vlsisystemdesign.com/
-10. https://www.c2s.gov.in/
+1. [FOSSEE](https://fossee.in/), [IIT Bombay](http://iitb.ac.in/)
+2. Kunal Ghosh, Co-founder, [VSD Corp. Pvt. Ltd.](https://www.vlsisystemdesign.com/) - [Email](kunalpghosh@gmail.com)
+3. Sumanto Kar, eSim Team, [FOSSEE](https://fossee.in/)
+4. [Spoken Tutorial](https://spoken-tutorial.org/)
+5. [Chips to Startup (C2S)](https://www.c2s.gov.in/)
+6. [Google](https://www.google.co.in/)
+
+### Social media IDs
+SPOKEN TUTORIAL: https://spoken-tutorial.org/ \
+SLACK: https://join.slack.com/t/fossee-iitbombay/shared_invite/zt-1hjcs4lxf-iJbNRcnmtfXYOc9ahEvp1g \
+FACEBOOK: https://www.facebook.com/FOSSEENMEICT/ \
+TWITTER: https://twitter.com/FOSSEE/ \
+INSTAGRAM: https://www.instagram.com/fossee_nmeict/ \
+LINKEDIN: https://www.linkedin.com/company/fossee-iitb/
