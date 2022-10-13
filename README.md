@@ -27,7 +27,7 @@ Design and Implementation of automatic Security Monitoring System
   - [4. DEMUX](#4-demux)
 - [Software Tools Used](#software-tools-used)
 - [Acknowlegdements](#acknowlegdements)
-  - [Social media IDs](#social-media-ids)
+- [Social media IDs](#social-media-ids)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -148,7 +148,7 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 5. [Chips to Startup (C2S)](https://www.c2s.gov.in/)
 6. [Google](https://www.google.co.in/)
 
-### Social media IDs
+## Social media IDs
 SPOKEN TUTORIAL: https://spoken-tutorial.org/ \
 SLACK: https://join.slack.com/t/fossee-iitbombay/shared_invite/zt-1hjcs4lxf-iJbNRcnmtfXYOc9ahEvp1g \
 FACEBOOK: https://www.facebook.com/FOSSEENMEICT/ \
