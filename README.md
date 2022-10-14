@@ -84,6 +84,8 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 
 ### 6. Current Door Status
 
+> Door4, Door8 and Door12 are kept open while all other doors are closed
+
 <img align="center" src="./Images/Output%20Waveform/DoorIn.svg" alt="Current Door Status">
 
 ### 7. Alert System
