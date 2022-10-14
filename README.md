@@ -10,16 +10,16 @@ Design and Implementation of automatic Security Monitoring System
   - [1. Security System](#1-security-system)
   - [2. Window Comparator](#2-window-comparator)
   - [3. Window Comparator Output](#3-window-comparator-output)
-  - [4. XNOR of Window Comparator Inverted Output](#4-xnor-of-window-comparator-inverted-output)
+  - [4. XNOR of Window Comparator Output](#4-xnor-of-window-comparator-inverted-output)
   - [5. Security System mux demux](#5-security-system-mux-demux)
 - [Output Waveform](#output-waveform)
   - [1. Window Comparator Input](#1-window-comparator-input)
   - [2. Window Comparator Output](#2-window-comparator-output)
-  - [3. Window Comparator Inverted Output](#3-window-comparator-inverted-output)
+  - [3. Window Comparator output after removing spikes](#3-window-comparator-inverted-output)
   - [4. XNOR Output of Window Comparator Inverted Output](#4-xnor-output-of-window-comparator-inverted-output)
   - [5. MOD16 Waveform](#5-mod16-waveform)
   - [6. Current Door Status](#6-current-door-status)
-  - [7. Inverter](#7-inverter)
+  - [7. Alert System](#7-inverter)
 - [Makerchip](#makerchip)
   - [1. Inverter](#1-inverter)
   - [2. MOD16](#2-mod16)
@@ -50,7 +50,7 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 
 <img align="center" src="./Images/esim_Circuit/Window%20Comparator%20Output%20INV.jpg" alt="Window Comparator Output">
 
-### 4. XNOR of Window Comparator Inverted Output
+### 4. XNOR of Window Comparator Output
 
 <img align="center" src="./Images/esim_Circuit/XNOR.jpg" alt="XNOR of Window Comparator Inverted Output">
 
@@ -86,7 +86,7 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 
 <img align="center" src="./Images/Output%20Waveform/DoorIn.svg" alt="Current Door Status">
 
-### 7. Inverter
+### 7. Alert System
 
 <img align="center" src="./Images/Output%20Waveform/Security%20System%20Output.svg" alt="Inverter">
 
