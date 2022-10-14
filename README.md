@@ -70,11 +70,11 @@ Many security systems are used in buildings where doors are to be monitored e.g.
 
 <img align="center" src="./Images/Output%20Waveform/Window%20Comparator%20Output.svg" alt="Window Comparator Output">
 
-### 3. Window Comparator Inverted Output
+### 3. Window Comparator Output after removing spikes using back to back inverter
 
 <img align="center" src="./Images/Output%20Waveform/Window%20Comparator%20Inverted%20Output.svg" alt="Window Comparator Inverted Output">
 
-### 4. XNOR Output of Window Comparator Inverted Output
+### 4. XNOR Output of Window Comparator Output
 
 <img align="center" src="./Images/Output%20Waveform/xor%20of%20WIN%20COMP%20INV%20Output.svg" alt="XNOR Output of Window Comparator Inverted Output">
 
